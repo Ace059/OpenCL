@@ -1,0 +1,55 @@
+﻿Build started 7.2.2015. 13:34:21.
+     1>Project "C:\Users\Bojan\Documents\Visual Studio 2013\Projects\OpenCL C++ Paralelizacija\OpenCL C++ Paralelizacija\OpenCL C++ Paralelizacija.vcxproj" on node 2 (Build target(s)).
+     1>_Intel_OpenCL_Build_Rules:
+         Preprocessing: Kernel.cl
+         Preprocessing: template.cl
+         cmd.exe /Q /C "C:\Users\Bojan\AppData\Local\Temp\tmp2ca8e72832604474be22824e453ee84c.cmd"
+         "C:\Program Files (x86)\Intel\OpenCL SDK\4.6\bin\x86\ioc32.exe" -cmd=build -input="C:\Users\Bojan\Documents\Visual Studio 2013\Projects\OpenCL C++ Paralelizacija\OpenCL C++ Paralelizacija\Kernel.cl" -output="Debug\Kernel.out" -VS -device=CPU -simd=default -targetos=current     -bo="           "
+         Ignoring -TARGETOS option - not supported for current CPU runtime version
+         Setting target instruction set architecture to: Default (Advanced Vector Extension (AVX))
+         OpenCL Intel CPU device was found!
+         Device name: Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz
+         Device version: OpenCL 1.2 (Build 76413)
+         Device vendor: Intel(R) Corporation
+         Device profile: FULL_PROFILE
+         Compilation started
+         Compilation done
+         Linking started
+         Linking done
+         Kernel <prvi> was successfully vectorized
+         Kernel <drugi> was successfully vectorized
+         Kernel <treci> was successfully vectorized
+         Kernel <cetvrti> was successfully vectorized
+         Done.
+         Build succeeded!
+         
+         cmd.exe /Q /C "C:\Users\Bojan\AppData\Local\Temp\tmp4207918dc20e47f4b746113c81f0ede2.cmd"
+         "C:\Program Files (x86)\Intel\OpenCL SDK\4.6\bin\x86\ioc32.exe" -cmd=build -input="C:\Users\Bojan\Documents\Visual Studio 2013\Projects\OpenCL C++ Paralelizacija\OpenCL C++ Paralelizacija\template.cl" -output="Debug\template.out" -VS -device=CPU -simd=default -targetos=current     -bo="           "
+         Ignoring -TARGETOS option - not supported for current CPU runtime version
+         Setting target instruction set architecture to: Default (Advanced Vector Extension (AVX))
+         OpenCL Intel CPU device was found!
+         Device name: Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz
+         Device version: OpenCL 1.2 (Build 76413)
+         Device vendor: Intel(R) Corporation
+         Device profile: FULL_PROFILE
+         Compilation started
+         Compilation done
+         Linking started
+         Linking done
+         Kernel <Add> was successfully vectorized
+         Done.
+         Build succeeded!
+         
+       Link:
+         OpenCL C++ Paralelizacija.vcxproj -> C:\Users\Bojan\Documents\Visual Studio 2013\Projects\OpenCL C++ Paralelizacija\Debug\OpenCL C++ Paralelizacija.exe
+       PostBuildEvent:
+         copy "*.cl" "C:\Users\Bojan\Documents\Visual Studio 2013\Projects\OpenCL C++ Paralelizacija\Debug\\"
+         :VCEnd
+         Kernel.cl
+         template.cl
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\Bojan\Documents\Visual Studio 2013\Projects\OpenCL C++ Paralelizacija\OpenCL C++ Paralelizacija\OpenCL C++ Paralelizacija.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68
